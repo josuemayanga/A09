@@ -49,12 +49,17 @@ header img {
 main {
 	clear: left;
 }
+main {
+	padding: 0 30px;
+}
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
+    border-top: 3px solid #931420;
+    border-bottom: 3px solid #931420;
 }
 main h2 {
-	color: var(--global-color-1);
+	color: #800000;
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
@@ -77,6 +82,13 @@ main ul {
 }
 main li {
 	padding-bottom: .35em;
+}
+
+/* the styles for the article */
+article {
+	padding: .5em 0;
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
 }
 
 /* the styles for the footer */
